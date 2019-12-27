@@ -23,4 +23,5 @@ Some things I want to mention related to my solution. Regarding provided `input-
 To address _unlimited input parser_ issue I opted for creating a small script which would generate `input-file-10000.txt`-like log from a subset of `hosts` infinitely and randomly. To solve the the task and provide memory and CPU efficient solution, multiple approaches could be valid. I opted for simple, yet elegant using `subprocess` and `tail`, after some research using `mmap` or using python's context manager `.tell()`, `.seek()` approach appeared working, performance could be a subject for further investigation. I apologize for insufficient/partial test coverage.
 
 ### Example command line output
-![cmd_output](https://github.com/marektmn/clarity_assessment/blob/master/img/cmd_output.png
+![cmd_output](https://github.com/marektmn/clarity_assessment/blob/master/img/clarity.png)
+(typo, it was 20 seconds interval)
